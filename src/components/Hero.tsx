@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 import { Calendar, MapPin, Hotel, ArrowRight } from 'lucide-react'
 import { EVENT, HERO_TAGS } from '../data/content'
-import { IMAGES } from '../data/images'
+// import { IMAGES } from '../data/images'
 import Countdown from './Countdown'
 import Back from "../../public/back.jpeg"
 
