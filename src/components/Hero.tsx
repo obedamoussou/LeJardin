@@ -3,6 +3,7 @@ import { Calendar, MapPin, Hotel, ArrowRight } from 'lucide-react'
 import { EVENT, HERO_TAGS } from '../data/content'
 import { IMAGES } from '../data/images'
 import Countdown from './Countdown'
+import Back from "../../public/back.jpeg"
 
 const fadeUp = {
   hidden: { opacity: 0, y: 24 },
@@ -19,7 +20,8 @@ export default function Hero() {
       {/* Background */}
       <div className="absolute inset-0">
         <motion.img
-          src={IMAGES.heroBonfire}
+          // src={IMAGES.heroBonfire}
+          src={Back}
           alt="Feu de plage au coucher du soleil"
           initial={{ scale: 1.15 }}
           animate={{ scale: 1 }}
