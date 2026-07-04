@@ -1,6 +1,6 @@
 // Remplacez ces URL par vos vraies playlists.
-const SPOTIFY_URL = 'https://open.spotify.com/'
-const APPLE_MUSIC_URL = 'https://music.apple.com/'
+const SPOTIFY_URL = 'https://open.spotify.com/playlist/5MFFHOJXP6RWGZPyuH8nss?si=wxJGHURmToq7oQZLOZRZtg&pi=u1BEFmuTRHm-N'
+const APPLE_MUSIC_URL = 'https://music.apple.com/fr/playlist/le-jardin-detty-escape/pl.u-leylMdltPNDoJ5'
 
 function SpotifyLogo() {
   // Logo officiel Spotify (vert de marque #1ED760).

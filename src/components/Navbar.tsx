@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react'
 import { AnimatePresence, motion } from 'framer-motion'
 import { Menu, X } from 'lucide-react'
 import { NAV_LINKS } from '../data/content'
-import StreamingButtons from './StreamingButtons'
 import Logo from '../../public/Logo.png'
 
 export default function Navbar() {
@@ -91,13 +90,6 @@ export default function Navbar() {
                 <a href="#reserver" onClick={() => setOpen(false)} className="btn-primary w-full">
                   Je réserve ma place
                 </a>
-              </li>
-              {/* Écoute Spotify / Apple Music (mobile & tablette) */}
-              <li className="mt-3 border-t border-white/10 px-3 pt-4" onClick={() => setOpen(false)}>
-                <p className="mb-2.5 text-xs font-semibold uppercase tracking-wider text-sand-100/60">
-                  Écouter la playlist
-                </p>
-                <StreamingButtons />
               </li>
             </ul>
           </motion.div>

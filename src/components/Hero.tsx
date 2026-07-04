@@ -37,9 +37,19 @@ export default function Hero() {
           {/* Left copy */}
           <div>
             <div>
-              <motion.div variants={fadeUp} custom={0} initial="hidden" animate="visible">
-              <span className="mb-3 inline-block font-script text-3xl text-sand-50 sm:text-4xl">The</span>
-            </motion.div>
+              <motion.div
+                variants={fadeUp}
+                custom={0}
+                initial="hidden"
+                animate="visible"
+                className="flex items-center justify-between gap-3"
+              >
+                <span className="mb-3 inline-block font-script text-3xl text-sand-50 sm:text-4xl">The</span>
+                {/* Boutons streaming — mobile & tablette (sur desktop ils sont dans la colonne de droite) */}
+                <div className="mb-3 lg:hidden">
+                  <StreamingButtons />
+                </div>
+              </motion.div>
 
             <motion.h1
               variants={fadeUp}
