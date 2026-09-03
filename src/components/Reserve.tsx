@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { ArrowRight, Bed, Utensils, Music, Landmark } from 'lucide-react'
+import { ArrowRight, Bed, Utensils, Music, Landmark, Users } from 'lucide-react'
 import { EVENT } from '../data/content'
 import Basketball from './icons/Basketball'
 import Reveal from './Reveal'
@@ -10,6 +10,7 @@ const perks = [
   { icon: Music, label: 'Activités & soirées' },
   { icon: Basketball, label: 'Accès aux infrastructures' },
   { icon: Landmark, label: 'Visite de Ouidah' },
+  { icon: Users, label: 'Deux personnes' },
 ]
 
 export default function Reserve() {
@@ -37,6 +38,11 @@ export default function Reserve() {
                   <span className="ml-2 align-middle text-2xl text-ember-500 sm:text-3xl">
                     {EVENT.currency}
                   </span>
+                </p>
+              </Reveal>
+              <Reveal delay={0.12}>
+                <p className="mt-1 text-lg font-medium text-sand-100/70 sm:text-xl">
+                  soit {EVENT.priceEur} {EVENT.currencyEur}
                 </p>
               </Reveal>
 

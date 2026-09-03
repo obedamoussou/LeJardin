@@ -31,6 +31,8 @@ export const EVENT = {
   roomsTotal: 60,
   price: '245.000',
   currency: 'FCFA',
+  priceEur: '375',
+  currencyEur: '€',
   phone: '+229 01 23 45 67 89',
   email: 'lejardinconcept@gmail.com',
 }
@@ -144,5 +146,9 @@ export const FAQS: Faq[] = [
   {
     q: 'Le transport est-il inclus ?',
     a: 'Le transport jusqu\'à l\'Hotel Millenium Popo Beach n\'est pas compris dans la formule. Un point de rendez-vous et des options de covoiturage vous seront communiqués après réservation.',
+  },
+  {
+    q: 'Puis-je payer en plusieurs fois ?',
+    a: 'Oui, il est possible de payer en plusieurs fois grâce à des solutions de paiement comme Klarna',
   },
 ]
