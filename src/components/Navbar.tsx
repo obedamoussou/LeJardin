@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import { AnimatePresence, motion } from 'framer-motion'
 import { Menu, X } from 'lucide-react'
-import { NAV_LINKS } from '../data/content'
+// import { NAV_LINKS } from '../data/content'
 import Logo from '../../public/Logo.png'
 import CTNVIVE from "../../public/ctnvibe.png"
 import ADDOTOUR from "../../public/addotour.png"
@@ -34,15 +34,15 @@ export default function Navbar() {
     }
   }, [])
 
-  const handleNav = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
-    e.preventDefault()
-    setOpen(false)
-    const target = document.querySelector(href)
-    if (!target) return
-    const offset = (headerRef.current?.offsetHeight ?? 72) + 8
-    const top = target.getBoundingClientRect().top + window.scrollY - offset
-    window.scrollTo({ top, behavior: 'smooth' })
-  }
+  // const handleNav = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
+  //   e.preventDefault()
+  //   setOpen(false)
+  //   const target = document.querySelector(href)
+  //   if (!target) return
+  //   const offset = (headerRef.current?.offsetHeight ?? 72) + 8
+  //   const top = target.getBoundingClientRect().top + window.scrollY - offset
+  //   window.scrollTo({ top, behavior: 'smooth' })
+  // }
 
   return (
     <motion.header
