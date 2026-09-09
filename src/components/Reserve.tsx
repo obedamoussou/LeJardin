@@ -33,7 +33,7 @@ export default function Reserve() {
                 <p className="mt-2 text-lg font-medium text-sand-100/80">Early Bird</p>
               </Reveal>
               <p className="mt-3 font-display text-6xl leading-none text-gradient-ember sm:text-7xl">
-                  <span className='line-through'>299.000</span>
+                  <span className='line-through'>290.000</span>
                   <span className="ml-2 align-middle text-2xl text-ember-500 sm:text-3xl">
                     {EVENT.currency}
                   </span>
@@ -78,7 +78,7 @@ export default function Reserve() {
                 <p className="mt-2 text-sm text-sand-100/70">
                   Une fois les chambres complétées, les réservations seront fermées.
                 </p>
-                <a href={`mailto:${EVENT.email}`} className="btn-primary mt-6 w-full">
+                <a href="https://my-yap.com/events/the-detty-escape" target='blank' className="btn-primary mt-6 w-full">
                   Je réserve maintenant <ArrowRight size={16} />
                 </a>
                 {/* <div className="mt-5 flex items-center justify-center gap-2 text-xs text-sand-100/60">

@@ -61,7 +61,7 @@ export default function Navbar() {
           <img src={ADDOTOUR} alt="Logo" className="h-12 w-auto object-contain sm:h-16 lg:h-20" />
         </a>
 
-        <ul className="hidden items-center gap-7 lg:flex">
+        {/* <ul className="hidden items-center gap-7 lg:flex">
           {NAV_LINKS.map((l) => (
             <li key={l.href}>
               <a
@@ -73,9 +73,9 @@ export default function Navbar() {
               </a>
             </li>
           ))}
-        </ul>
+        </ul> */}
 
-        <a href="#reserver" className="btn-primary hidden shrink-0 !px-5 !py-2.5 !text-xs lg:inline-flex">
+        <a href="https://my-yap.com/events/the-detty-escape" target='blank' className="btn-primary hidden shrink-0 !px-5 !py-2.5 !text-xs lg:inline-flex">
           Je réserve ma place
         </a>
 
@@ -115,8 +115,9 @@ export default function Navbar() {
               ))}
               <li className="mt-2 px-3">
                 <a
-                  href="#reserver"
-                  onClick={(e) => handleNav(e, '#reserver')}
+                  href="https://my-yap.com/events/the-detty-escape"
+                  target='blank'
+                  // onClick={(e) => handleNav(e, '#reserver')}
                   className="btn-primary w-full"
                 >
                   Je réserve ma place

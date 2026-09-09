@@ -131,7 +131,7 @@ export default function Hero() {
               animate="visible"
               className="mt-6 flex flex-wrap gap-3"
             >
-              <a href="#reserver" className="btn-primary">
+              <a href="https://my-yap.com/events/the-detty-escape" className="btn-primary" target='blank'>
                 Je réserve ma place <ArrowRight size={16} />
               </a>
               <a href="#programme" className="btn-ghost">
