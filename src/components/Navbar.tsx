@@ -102,7 +102,7 @@ export default function Navbar() {
             className="overflow-hidden border-t border-white/10 bg-night-900/95 backdrop-blur-md lg:hidden"
           >
             <ul className="container-x flex max-h-[70vh] flex-col gap-1 overflow-y-auto py-4">
-              {NAV_LINKS.map((l) => (
+              {/* {NAV_LINKS.map((l) => (
                 <li key={l.href}>
                   <a
                     href={l.href}
@@ -112,7 +112,7 @@ export default function Navbar() {
                     {l.label}
                   </a>
                 </li>
-              ))}
+              ))} */}
               <li className="mt-2 px-3">
                 <a
                   href="https://my-yap.com/events/the-detty-escape"
