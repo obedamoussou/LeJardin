@@ -3,6 +3,12 @@ import { ArrowRight, Bed, Utensils, Music, Landmark, Users } from 'lucide-react'
 import { EVENT } from '../data/content'
 import Basketball from './icons/Basketball'
 import Reveal from './Reveal'
+import cb from "../../public/cb.jpeg"
+import kkia from "../../public/kkia.jpeg"
+import mtn from "../../public/mtn.png"
+import moov from "../../public/moov.png"
+import celtiis from "../../public/celtiis.png"
+import klarna from "../../public/klarna.jpeg"
 
 const perks = [
   { icon: Bed, label: 'Hébergement' },
@@ -46,10 +52,17 @@ export default function Reserve() {
                   </span>
                 </p>
               </Reveal>
-              <Reveal delay={0.12}>
+              <Reveal delay={0.12} className='flex items-center space-x-2'>
                 <p className="mt-1 text-lg font-medium text-sand-100/70 sm:text-xl">
-                  soit {EVENT.priceEur} {EVENT.currencyEur}
+                  soit {EVENT.priceEur} {EVENT.currencyEur} 
                 </p>
+                <div className='flex space-x-2'>
+                  <img className='w-7 h-5' src={cb} alt="" />
+                  <img className='w-7 h-5' src={mtn} alt="" />
+                  <img className='w-7 h-5' src={celtiis} alt="" />
+                  <img className='w-7 h-5' src={moov} alt="" />
+                  <img className='w-10 h-5' src={klarna} alt="" />
+                </div>
               </Reveal>
 
               <ul className="mt-7 grid grid-cols-2 gap-4">
