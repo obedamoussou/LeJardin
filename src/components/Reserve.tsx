@@ -57,9 +57,9 @@ export default function Reserve() {
                   soit {EVENT.priceEur} {EVENT.currencyEur} 
                 </p>
                 <div className='flex space-x-2'>
-                  <img className='w-7 h-5' src={cb} alt="" />
+                  <img className='w-7 h-5 rounded-md' src={cb} alt="" />
                   <img className='w-7 h-5' src={mtn} alt="" />
-                  <img className='w-7 h-5' src={celtiis} alt="" />
+                  <img className='w-7 h-5 rounded-sm' src={celtiis} alt="" />
                   <img className='w-7 h-5' src={moov} alt="" />
                   <img className='w-10 h-5' src={klarna} alt="" />
                 </div>
