@@ -11,12 +11,12 @@ import celtiis from "../../public/celtiis.png"
 import klarna from "../../public/klarna.jpeg"
 
 const perks = [
-  { icon: Bed, label: 'Hébergement' },
-  { icon: Utensils, label: 'Tous les repas' },
-  { icon: Music, label: 'Activités & soirées' },
-  { icon: Basketball, label: 'Accès aux infrastructures' },
-  { icon: Landmark, label: 'Visite de Ouidah' },
   { icon: Users, label: 'Deux personnes' },
+  { icon: Bed, label: 'Hébergement' },
+  { icon: Music, label: 'Activités & soirées' },
+  { icon: Utensils, label: 'Tous les repas' },
+  { icon: Landmark, label: 'Visite de Ouidah' },
+  { icon: Basketball, label: 'Accès aux infrastructures' },
 ]
 
 export default function Reserve() {
@@ -88,9 +88,9 @@ export default function Reserve() {
                 <p className="font-display text-xl uppercase tracking-tight text-ember-500">
                   Les places sont limitées
                 </p>
-                <p className="mt-2 text-sm text-sand-100/70">
+                {/* <p className="mt-2 text-sm text-sand-100/70">
                   Une fois les chambres complétées, les réservations seront fermées.
-                </p>
+                </p> */}
                 <a href="https://my-yap.com/events/the-detty-escape" target='blank' className="btn-primary mt-6 w-full">
                   Je réserve maintenant <ArrowRight size={16} />
                 </a>
