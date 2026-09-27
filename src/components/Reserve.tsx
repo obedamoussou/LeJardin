@@ -32,7 +32,7 @@ export default function Reserve() {
             <div>
               <Reveal>
                 <h3 className="font-display text-4xl uppercase tracking-tight text-sand-50 sm:text-5xl">
-                  Réservez maintenant
+                  Réservez votre chambre
                 </h3>
               </Reveal>
               <Reveal delay={0.05}>
@@ -53,7 +53,7 @@ export default function Reserve() {
                 </p>
               </Reveal>
               <Reveal delay={0.12} className='flex items-center space-x-2'>
-                <p className="mt-1 text-lg font-medium text-sand-100/70 sm:text-xl">
+                <p className="mt-1 font-medium text-sand-100/70 sm:text-xl">
                   soit {EVENT.priceEur} {EVENT.currencyEur} 
                 </p>
                 <div className='flex space-x-2'>
