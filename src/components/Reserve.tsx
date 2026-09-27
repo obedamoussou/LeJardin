@@ -4,7 +4,7 @@ import { EVENT } from '../data/content'
 import Basketball from './icons/Basketball'
 import Reveal from './Reveal'
 import cb from "../../public/cb.jpeg"
-import kkia from "../../public/kkia.jpeg"
+// import kkia from "../../public/kkia.jpeg"
 import mtn from "../../public/mtn.png"
 import moov from "../../public/moov.png"
 import celtiis from "../../public/celtiis.png"
