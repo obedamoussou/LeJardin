@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { ArrowRight, Bed, Utensils, Music, Landmark, Users } from 'lucide-react'
+import { ArrowRight, Bed, Utensils, Music, Landmark, Users, Users2 } from 'lucide-react'
 import { EVENT } from '../data/content'
 import Basketball from './icons/Basketball'
 import Reveal from './Reveal'
@@ -31,37 +31,39 @@ export default function Reserve() {
           <div className="relative grid gap-10 lg:grid-cols-[1.2fr_1fr] lg:items-center">
             <div>
               <Reveal>
-                <h3 className="font-display text-4xl uppercase tracking-tight text-sand-50 sm:text-5xl">
-                  Réservez votre chambre
-                </h3>
+                  <h3 className="font-display text-4xl uppercase tracking-tight text-sand-50 sm:text-5xl">
+                    Réservez votre chambre <span className='text-xl '>( Jusqu'à 02 personnes )</span>
+                     {/* <Users className="ml-3 inline-block h-8 w-8 align-middle" /> */}
+                  </h3>
+                
               </Reveal>
               <Reveal delay={0.05}>
                 <p className="mt-2 text-lg font-medium text-sand-100/80">Early Bird</p>
               </Reveal>
               <p className="mt-3 font-display text-6xl leading-none text-gradient-ember sm:text-7xl">
-                  <span className='line-through'>290.000</span>
-                  <span className="ml-2 align-middle text-2xl text-ember-500 sm:text-3xl">
-                    {EVENT.currency}
+                  <span className='line-through'>375</span>
+                  <span className="ml-2 align-middle text-5xl text-ember-500 sm:text-5xl">
+                    {EVENT.currencyEur}
                   </span>
                 </p>
               <Reveal delay={0.1}>
                 <p className="mt-3 font-display text-6xl leading-none text-gradient-ember sm:text-7xl">
-                  {EVENT.price}
-                  <span className="ml-2 align-middle text-2xl text-ember-500 sm:text-3xl">
-                    {EVENT.currency}
+                  {EVENT.priceEur}
+                  <span className="ml-2 align-middle text-5xl text-ember-500 sm:text-5xl">
+                    {EVENT.currencyEur}
                   </span>
                 </p>
               </Reveal>
               <Reveal delay={0.12} className='flex items-center space-x-2'>
-                <p className="mt-1 font-medium text-sand-100/70 sm:text-xl">
-                  soit {EVENT.priceEur} {EVENT.currencyEur} 
+                <p className="mt-1 font-medium text-sand-100/70 text-sm sm:text-xl">
+                  soit {EVENT.price} {EVENT.currency} 
                 </p>
                 <div className='flex space-x-2'>
                   <img className='w-7 h-5 rounded-md' src={cb} alt="" />
+                  <img className='w-10 h-5' src={klarna} alt="" />
                   <img className='w-7 h-5' src={mtn} alt="" />
                   <img className='w-7 h-5 rounded-sm' src={celtiis} alt="" />
                   <img className='w-7 h-5' src={moov} alt="" />
-                  <img className='w-10 h-5' src={klarna} alt="" />
                 </div>
               </Reveal>
 
@@ -86,7 +88,7 @@ export default function Reserve() {
             <Reveal delay={0.15}>
               <div className="rounded-2xl border border-white/10 bg-white/[0.04] p-6 text-center backdrop-blur-sm">
                 <p className="font-display text-xl uppercase tracking-tight text-ember-500">
-                  Les places sont limitées
+                  Seulement 20 réservations
                 </p>
                 {/* <p className="mt-2 text-sm text-sand-100/70">
                   Une fois les chambres complétées, les réservations seront fermées.
