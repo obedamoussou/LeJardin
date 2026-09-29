@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { ArrowRight, Bed, Utensils, Music, Landmark, Users, Users2 } from 'lucide-react'
+import { ArrowRight, Bed, Utensils, Music, Landmark, Users } from 'lucide-react'
 import { EVENT } from '../data/content'
 import Basketball from './icons/Basketball'
 import Reveal from './Reveal'
