@@ -23,7 +23,7 @@ export default function Reserve() {
   return (
     <section id="reserver" className="py-16 sm:py-24">
       <div className="container-x">
-        <div className="relative overflow-hidden rounded-3xl border border-ember-600/30 bg-gradient-to-br from-night-850 to-night-900 p-8 sm:p-12">
+        <div className="relative overflow-hidden rounded-3xl border border-ember-600/30 bg-gradient-to-br from-night-850 to-night-900 p-7 sm:p-12">
           {/* glow */}
           <div className="pointer-events-none absolute -right-24 -top-24 h-72 w-72 rounded-full bg-ember-600/20 blur-3xl" />
           <div className="pointer-events-none absolute -bottom-24 -left-24 h-72 w-72 rounded-full bg-ember-500/10 blur-3xl" />
@@ -54,7 +54,7 @@ export default function Reserve() {
                   </span>
                 </p>
               </Reveal>
-              <Reveal delay={0.12} className='flex items-center space-x-1'>
+              <Reveal delay={0.12} className='flex items-center space-x-2'>
                 <p className="mt-1 font-medium text-sand-100/70 text-sm sm:text-xl">
                   soit {EVENT.price}
                   <span className='text-xs'>{EVENT.currency}</span> 
