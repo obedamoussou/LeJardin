@@ -54,12 +54,12 @@ export default function Reserve() {
                   </span>
                 </p>
               </Reveal>
-              <Reveal delay={0.12} className='flex items-center space-x-2'>
+              <Reveal delay={0.12} className='flex items-center space-x-1'>
                 <p className="mt-1 font-medium text-sand-100/70 text-sm sm:text-xl">
                   soit {EVENT.price}
                   <span className='text-xs'>{EVENT.currency}</span> 
                 </p>
-                <div className='flex space-x-2'>
+                <div className='flex space-x-1'>
                   <img className='w-7 h-5 rounded-md' src={cb} alt="" />
                   <img className='w-10 h-5' src={klarna} alt="" />
                   <img className='w-6 h-5' src={mtn} alt="" />
