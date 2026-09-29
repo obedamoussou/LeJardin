@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import { Check } from 'lucide-react'
-import { GUESTS, REASONS } from '../data/content'
+import { REASONS } from '../data/content'
 import Reveal from './Reveal'
 
 export default function GuestsReasons() {
@@ -8,7 +8,7 @@ export default function GuestsReasons() {
     <section className="py-20 sm:py-24">
       <div className="container-x grid gap-10 lg:grid-cols-2">
         {/* Ils seront présents */}
-        <div>
+        {/* <div>
           <Reveal>
             <h3 className="font-display text-3xl uppercase tracking-tight text-sand-50">
               Ils seront présents
@@ -34,7 +34,7 @@ export default function GuestsReasons() {
               </motion.div>
             ))}
           </div>
-        </div>
+        </div> */}
 
         {/* Pourquoi participer */}
         <div>

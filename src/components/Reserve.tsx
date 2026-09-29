@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { ArrowRight, Bed, Utensils, Music, Landmark, Users } from 'lucide-react'
+import { ArrowRight, Bed, Utensils, Music, Landmark, CreditCard } from 'lucide-react'
 import { EVENT } from '../data/content'
 import Basketball from './icons/Basketball'
 import Reveal from './Reveal'
@@ -11,7 +11,7 @@ import celtiis from "../../public/celtiis.png"
 import klarna from "../../public/klarna.jpeg"
 
 const perks = [
-  { icon: Users, label: 'Deux personnes' },
+  { icon: CreditCard, label: 'Paiement en plusieurs fois' },
   { icon: Bed, label: 'Hébergement' },
   { icon: Music, label: 'Activités & soirées' },
   { icon: Utensils, label: 'Tous les repas' },

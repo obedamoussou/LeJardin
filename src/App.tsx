@@ -1,7 +1,7 @@
 import { motion, useScroll, useSpring } from 'framer-motion'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
-import FeatureStrip from './components/FeatureStrip'
+// import FeatureStrip from './components/FeatureStrip'
 import AllInclusive from './components/AllInclusive'
 import Program from './components/Program'
 import Stay from './components/Stay'
@@ -28,7 +28,7 @@ export default function App() {
 
       <main>
         <Hero />
-        <FeatureStrip />
+        {/* <FeatureStrip /> */}
         <AllInclusive />
         <Program />
         <Stay />
