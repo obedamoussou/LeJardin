@@ -32,7 +32,7 @@ export default function Reserve() {
             <div>
               <Reveal>
                   <h3 className="font-display text-4xl uppercase tracking-tight text-sand-50 sm:text-5xl">
-                    Réservez votre chambre <span className='text-lg '>( Jusqu'à 02 personnes )</span>
+                    Réservez votre chambre <span className='text-lg '>(Jusqu'à 02 personnes)</span>
                      {/* <Users className="ml-3 inline-block h-8 w-8 align-middle" /> */}
                   </h3>
                 
