@@ -38,7 +38,7 @@ export default function Reserve() {
                 
               </Reveal>
               <Reveal delay={0.05}>
-                <p className="mt-2 text-lg font-medium text-sand-100/80">Early Bird</p>
+                <p className="mt-2 text-lg font-medium text-sand-100/80">À partir de</p>
               </Reveal>
               <p className="mt-3 font-display text-6xl leading-none text-gradient-ember sm:text-7xl">
                   <span className='line-through'>187.5</span>
