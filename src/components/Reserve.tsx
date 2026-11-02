@@ -41,7 +41,7 @@ export default function Reserve() {
                 <p className="mt-2 text-lg font-medium text-sand-100/80">Early Bird</p>
               </Reveal>
               <p className="mt-3 font-display text-6xl leading-none text-gradient-ember sm:text-7xl">
-                  <span className='line-through'>375</span>
+                  <span className='line-through'>187.5</span>
                   <span className="ml-2 align-middle text-5xl text-ember-500 sm:text-5xl">
                     {EVENT.currencyEur}
                   </span>
